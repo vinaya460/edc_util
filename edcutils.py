@@ -299,7 +299,7 @@ def getCatalogResourceCount(url, user, pWd):
 if __name__ == "__main__":
     getCatalogResourceCount(url='', user='API_USER', pWd='API')
     getCatalogObjectCount(url='', user='', pWd=='')
-    getResourceObjectCount(url='', user='', pWd, resourceName)
+    getResourceObjectCount(url='', user='', pWd='', resourceName=='')
     callGETRestEndpoint(apiURL='', user='', pWd='')
     getResourceObjectCount(url='', user='', pWd='', resourceName='')
     executeResourceLoad(url='', user='', pWd='', resourceName='')
