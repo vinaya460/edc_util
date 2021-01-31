@@ -297,16 +297,16 @@ def getCatalogResourceCount(url, user, pWd):
     return callGETRestEndpoint(apiURL, user, pWd)
 
 if __name__ == "__main__":
-    getCatalogResourceCount(url='', user='API_USER', pWd='API')
-    getCatalogObjectCount(url='', user='', pWd=='')
-    getResourceObjectCount(url='', user='', pWd='', resourceName=='')
-    callGETRestEndpoint(apiURL='', user='', pWd='')
-    getResourceObjectCount(url='', user='', pWd='', resourceName='')
-    executeResourceLoad(url='', user='', pWd='', resourceName='')
-    uploadResourceFile(url='', user='', pWd='', resourceName='', fileName='', fullPath='', scannerId='')
-    createResource(url='', user='', pWd='', resourceName='', resourceJson='')
-    updateResourceDef(url='', user='', pWd='', resourceName='', resJson='')
-    getAllResource(url='', user=='', pWd='')
+    getCatalogResourceCount(url='www.test.com', user='API_USER', pWd='API')
+    getCatalogObjectCount(url='www.test.com', user='API_USER', pWd='API')
+    getResourceObjectCount(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST')
+    callGETRestEndpoint(apiURL='www.test.com', user='API_USER', pWd='API')
+    getResourceObjectCount(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST')
+    executeResourceLoad(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST')
+    uploadResourceFile(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST', fileName='abc.txt', fullPath='/', scannerId='12345')
+    createResource(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST', resourceJson='{"abc":"vt"}')
+    updateResourceDef(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST', resJson='{"abc":"vt"}')
+    getAllResource(url='www.test.com', user='API_USER', pWd='API')
     
     
     
