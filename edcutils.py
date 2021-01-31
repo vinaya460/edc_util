@@ -296,17 +296,6 @@ def getCatalogResourceCount(url, user, pWd):
     print("getting object count for catalog resource:-" + apiURL + " user=" + user)
     return callGETRestEndpoint(apiURL, user, pWd)
 
-if __name__ == "__main__":
-    getCatalogResourceCount(url='www.test.com', user='API_USER', pWd='API')
-    getCatalogObjectCount(url='www.test.com', user='API_USER', pWd='API')
-    getResourceObjectCount(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST')
-    callGETRestEndpoint(apiURL='www.test.com', user='API_USER', pWd='API')
-    getResourceObjectCount(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST')
-    executeResourceLoad(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST')
-    uploadResourceFile(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST', fileName='abc.txt', fullPath='/', scannerId='12345')
-    createResource(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST', resourceJson='{"abc":"vt"}')
-    updateResourceDef(url='www.test.com', user='API_USER', pWd='API', resourceName=='TEST', resJson='{"abc":"vt"}')
-    getAllResource(url='www.test.com', user='API_USER', pWd='API')
     
     
     
